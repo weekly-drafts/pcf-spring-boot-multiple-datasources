@@ -1,0 +1,8 @@
+applications:
+- name: multiple-db
+  memory: 512MB
+  instance: 1
+  path: ./target/pcf-spring-boot-multiple-datasources-0.0.1-SNAPSHOT.jar
+  services:
+   - first-db
+   - second-db
